@@ -1,0 +1,48 @@
+node_modules/
+dist/
+.DS_Store
+*.local
+*.log
+
+# IDE & 工具
+.idea/
+.vscode/
+.deveco/
+.claude/
+.opencode/
+.codeartsdoer/
+.spec/
+*.swp
+*.swo
+*~
+
+# ========== 商业版代码已拆分为独立仓库 yxshop-admin-commercial ==========
+# 商业版 API 模块
+/src/api/agent_capitals.js
+/src/api/agent_withdraws.js
+/src/api/agents.js
+/src/api/analytics.js
+/src/api/invoice.js
+/src/api/purchase-order.js
+/src/api/supplier.js
+/src/api/warehouse.js
+
+# 商业版 i18n
+/src/i18n/en/agent_capitals.js
+/src/i18n/en/agent_withdraws.js
+/src/i18n/en/agents.js
+/src/i18n/en/analytics.js
+/src/i18n/en/invoice.js
+/src/i18n/en/supply_*.js
+/src/i18n/zh_CN/agent_capitals.js
+/src/i18n/zh_CN/agent_withdraws.js
+/src/i18n/zh_CN/agents.js
+/src/i18n/zh_CN/analytics.js
+/src/i18n/zh_CN/invoice.js
+/src/i18n/zh_CN/supply_*.js
+/src/i18n/zh_TW/agent_capitals.js
+/src/i18n/zh_TW/agent_withdraws.js
+/src/i18n/zh_TW/agents.js
+/src/i18n/zh_TW/analytics.js
+/src/i18n/zh_TW/invoice.js
+/src/i18n/zh_TW/supply_*.js

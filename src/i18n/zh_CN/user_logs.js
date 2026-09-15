@@ -1,0 +1,23 @@
+export default {
+  title: '用户日志',
+  subtitle: '追踪用户关键操作行为与安全审计',
+  search_placeholder: '搜索用户ID或操作内容...',
+  filter_all_type: '全部类型',
+  filter_login: '登录',
+  filter_logout: '登出',
+  filter_order: '下单',
+  filter_payment: '支付',
+  th_id: '记录ID',
+  th_user: '用户',
+  th_action: '操作类型',
+  th_detail: '操作详情',
+  th_ip: 'IP地址',
+  th_time: '操作时间',
+  user_prefix: '用户 #{id}',
+  system: '系统',
+  empty_data: '暂无日志数据',
+  total_count: '共 {n} 条记录',
+  prev_page: '上一页',
+  next_page: '下一页',
+  msg_operation_failed: '操作失败'
+}

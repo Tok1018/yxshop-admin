@@ -1,0 +1,23 @@
+export default {
+  title: 'Shipping Addresses',
+  subtitle: 'Manage user shipping address information',
+  search_placeholder: 'Search recipient or address...',
+  th_user: 'User',
+  th_contact: 'Recipient',
+  th_phone: 'Phone',
+  th_address: 'Address',
+  th_default: 'Default',
+  th_actions: 'Actions',
+  default_yes: 'Default',
+  user_prefix: 'User #{id}',
+  empty_data: 'No address data',
+  total_count: '{n} total',
+  prev_page: 'Previous',
+  next_page: 'Next',
+  btn_delete: 'Delete',
+  msg_operation_failed: 'Operation failed',
+  confirm_delete_title: 'Delete Confirmation',
+  confirm_delete_msg: 'Are you sure you want to delete this address?',
+  msg_delete_success: 'Deleted successfully',
+  msg_delete_failed: 'Delete failed'
+}

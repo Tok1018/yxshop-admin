@@ -1,0 +1,22 @@
+export default {
+  title: '資料報表',
+  subtitle: '銷售、使用者與商品資料分析',
+  tab_sales: '銷售報表',
+  tab_users: '使用者統計',
+  tab_products: '商品報表',
+  col_date: '日期',
+  col_order_count: '訂單數',
+  col_sales_amount: '銷售額',
+  col_refund_amount: '退款額',
+  col_new_users: '新註冊',
+  col_active_users: '活躍使用者',
+  col_order_users: '下單使用者',
+  col_product_name: '商品名稱',
+  col_sales_count: '銷量',
+  col_view_count: '瀏覽量',
+  no_data: '暫無資料',
+  total_count: '共 {count} 條',
+  prev_page: '上一頁',
+  next_page: '下一頁',
+  operation_failed: '操作失敗'
+}

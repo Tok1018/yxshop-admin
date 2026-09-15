@@ -1,0 +1,23 @@
+export default {
+  title: '收貨位址',
+  subtitle: '管理使用者收貨位址資訊',
+  search_placeholder: '搜尋收貨人或位址...',
+  th_user: '使用者',
+  th_contact: '收貨人',
+  th_phone: '聯絡電話',
+  th_address: '收貨位址',
+  th_default: '預設',
+  th_actions: '操作',
+  default_yes: '預設',
+  user_prefix: '使用者 #{id}',
+  empty_data: '暫無位址資料',
+  total_count: '共 {n} 條',
+  prev_page: '上一頁',
+  next_page: '下一頁',
+  btn_delete: '刪除',
+  msg_operation_failed: '操作失敗',
+  confirm_delete_title: '刪除確認',
+  confirm_delete_msg: '確定要刪除該收貨位址嗎？',
+  msg_delete_success: '刪除成功',
+  msg_delete_failed: '刪除失敗'
+}

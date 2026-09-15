@@ -1,0 +1,20 @@
+export default {
+  title: '用戶詳情',
+  subtitle: '查看用戶完整資訊',
+  back: '返回',
+  status_active: '正常',
+  status_disabled: '禁用',
+  balance: '餘額',
+  points: '積分',
+  orders: '訂單',
+  basic_info: '基本資訊',
+  user_id: '用戶ID',
+  username: '用戶名',
+  nickname: '暱稱',
+  phone: '手機號',
+  email: '郵箱',
+  level: '等級',
+  register_time: '註冊時間',
+  last_login: '最後登入',
+  not_found: '未找到用戶資訊'
+}

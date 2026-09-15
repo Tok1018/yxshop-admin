@@ -1,0 +1,20 @@
+export default {
+  title: '用户详情',
+  subtitle: '查看用户完整信息',
+  back: '返回',
+  status_active: '正常',
+  status_disabled: '禁用',
+  balance: '余额',
+  points: '积分',
+  orders: '订单',
+  basic_info: '基本信息',
+  user_id: '用户ID',
+  username: '用户名',
+  nickname: '昵称',
+  phone: '手机号',
+  email: '邮箱',
+  level: '等级',
+  register_time: '注册时间',
+  last_login: '最后登录',
+  not_found: '未找到用户信息'
+}

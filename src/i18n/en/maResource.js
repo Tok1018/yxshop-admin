@@ -1,0 +1,20 @@
+export default {
+  loadingText: 'Loading...',
+  searchFileNotice: 'Search file by name',
+  searchResource: 'Search resource type',
+  saveNetworkImage: 'Save network image',
+  networkImageNotice: 'Please paste the web picture address',
+  ok: 'OK',
+  contact:"Contact",
+  view:"View",
+  profile:"Profile",
+  contacts:"Contacts",
+  notes:"Notes",
+  contract:"Contract",
+  submit:"Submit",
+  saveAndCreateContact:"Save and create contact",
+  customerDetails:"Customer Details",
+  BillingAndShipping:"Billing&Shipping",
+  customerAdmins:"Customer Admins",
+  save:"Save"
+}

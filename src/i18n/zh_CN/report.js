@@ -1,0 +1,22 @@
+export default {
+  title: '数据报表',
+  subtitle: '销售、用户与商品数据分析',
+  tab_sales: '销售报表',
+  tab_users: '用户统计',
+  tab_products: '商品报表',
+  col_date: '日期',
+  col_order_count: '订单数',
+  col_sales_amount: '销售额',
+  col_refund_amount: '退款额',
+  col_new_users: '新注册',
+  col_active_users: '活跃用户',
+  col_order_users: '下单用户',
+  col_product_name: '商品名称',
+  col_sales_count: '销量',
+  col_view_count: '浏览量',
+  no_data: '暂无数据',
+  total_count: '共 {count} 条',
+  prev_page: '上一页',
+  next_page: '下一页',
+  operation_failed: '操作失败'
+}

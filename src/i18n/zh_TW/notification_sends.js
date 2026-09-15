@@ -1,0 +1,24 @@
+export default {
+  title: '發送記錄',
+  subtitle: '查看通知發送記錄',
+  search_receiver: '搜尋接收人...',
+  id: 'ID',
+  receiver: '接收人',
+  channel: '渠道',
+  status: '狀態',
+  time: '時間',
+  sms: '短信',
+  email: '郵件',
+  push: '推送',
+  success: '成功',
+  failed: '失敗',
+  empty: '暫無發送記錄',
+  total_count: '共 {count} 條',
+  prev_page: '上一頁',
+  next_page: '下一頁',
+  operation_failed: '操作失敗',
+  title_field: '標題',
+  wechat: '微信',
+  system: '系統',
+  pending: '待發送'
+}

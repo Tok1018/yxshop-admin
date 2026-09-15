@@ -1,0 +1,20 @@
+export default {
+  loadingText: '数据加载中...',
+  searchFileNotice: '文件名搜索',
+  searchResource: '搜索资源类型',
+  saveNetworkImage: '保存网络图片',
+  networkImageNotice: '请粘贴网络图片地址',
+  ok: '确定',
+  contact:"联系",
+  view:"查看",
+  profile:"概述",
+  contacts:"联系",
+  notes:"筆記",
+  contract:"合同",
+  submit:"提交",
+  saveAndCreateContact:"保存並創建聯繫人",
+  customerDetails:"客戶詳情",
+  BillingAndShipping:"賬單和運費",
+  customerAdmins:"客戶管理員",
+  save:"保存"
+}

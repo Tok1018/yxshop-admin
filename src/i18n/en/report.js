@@ -1,0 +1,22 @@
+export default {
+  title: 'Data Reports',
+  subtitle: 'Sales, user and product data analysis',
+  tab_sales: 'Sales Report',
+  tab_users: 'User Statistics',
+  tab_products: 'Product Report',
+  col_date: 'Date',
+  col_order_count: 'Orders',
+  col_sales_amount: 'Sales',
+  col_refund_amount: 'Refunds',
+  col_new_users: 'New Users',
+  col_active_users: 'Active Users',
+  col_order_users: 'Ordering Users',
+  col_product_name: 'Product Name',
+  col_sales_count: 'Sales Count',
+  col_view_count: 'Views',
+  no_data: 'No data',
+  total_count: '{count} total',
+  prev_page: 'Previous',
+  next_page: 'Next',
+  operation_failed: 'Operation failed'
+}

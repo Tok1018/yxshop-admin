@@ -1,0 +1,20 @@
+export default {
+  title: '文件日志',
+  subtitle: '审计系统文件上传下载操作',
+  search_placeholder: '搜索文件名...',
+  col_id: '记录ID',
+  col_file: '文件名',
+  col_action: '操作',
+  col_user: '操作用户',
+  col_time: '操作时间',
+  action_upload: '上传',
+  action_download: '下载',
+  action_delete: '删除',
+  user: '用户',
+  system: '系统',
+  empty: '暂无文件日志',
+  total: '共 {total} 条',
+  prev_page: '上一页',
+  next_page: '下一页',
+  operation_failed: '操作失败'
+}

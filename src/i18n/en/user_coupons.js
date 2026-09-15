@@ -1,0 +1,23 @@
+export default {
+  title: 'User Coupons',
+  subtitle: 'View user coupon claims and usage',
+  search_placeholder: 'Search user ID or coupon ID...',
+  filter_all_status: 'All Status',
+  status_unused: 'Unused',
+  status_used: 'Used',
+  status_expired: 'Expired',
+  status_unknown: 'Unknown',
+  th_id: 'Record ID',
+  th_user: 'User',
+  th_coupon: 'Coupon',
+  th_status: 'Status',
+  th_get_time: 'Claimed',
+  th_use_time: 'Used',
+  user_prefix: 'User #{id}',
+  empty_data: 'No coupon records',
+  total_count: '{n} records',
+  prev_page: 'Previous',
+  next_page: 'Next',
+  msg_operation_failed: 'Operation failed',
+  coupon_prefix: 'Coupon'
+}

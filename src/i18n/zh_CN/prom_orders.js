@@ -1,0 +1,20 @@
+export default {
+  title: '促销订单',
+  subtitle: '查看促销订单记录',
+  search_placeholder: '搜索促销ID、订单ID...',
+  th_id: 'ID',
+  th_prom_id: '促销ID',
+  th_prom_title: '促销活动',
+  th_order_id: '订单ID',
+  th_order_no: '订单编号',
+  th_user: '用户',
+  th_type: '促销类型',
+  th_amount: '优惠金额',
+  th_status: '状态',
+  th_time: '创建时间',
+  empty_data: '暂无订单数据',
+  total_count: '共 {n} 条',
+  prev_page: '上一页',
+  next_page: '下一页',
+  msg_load_failed: '加载数据失败'
+}

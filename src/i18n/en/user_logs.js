@@ -1,0 +1,23 @@
+export default {
+  title: 'User Logs',
+  subtitle: 'Track user key actions and security audit',
+  search_placeholder: 'Search user ID or action...',
+  filter_all_type: 'All Types',
+  filter_login: 'Login',
+  filter_logout: 'Logout',
+  filter_order: 'Order',
+  filter_payment: 'Payment',
+  th_id: 'Record ID',
+  th_user: 'User',
+  th_action: 'Action',
+  th_detail: 'Details',
+  th_ip: 'IP Address',
+  th_time: 'Time',
+  user_prefix: 'User #{id}',
+  system: 'System',
+  empty_data: 'No log data',
+  total_count: '{n} records',
+  prev_page: 'Previous',
+  next_page: 'Next',
+  msg_operation_failed: 'Operation failed'
+}

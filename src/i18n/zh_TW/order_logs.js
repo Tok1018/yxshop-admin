@@ -1,0 +1,26 @@
+export default {
+  title: '訂單日誌',
+  subtitle: '追蹤訂單全鏈路操作記錄',
+  search_placeholder: '搜尋訂單ID或描述...',
+  col_id: '記錄ID',
+  col_order: '訂單ID',
+  col_action: '操作',
+  col_desc: '詳情',
+  col_time: '操作時間',
+  empty: '暫無日誌資料',
+  total: '共 {total} 條',
+  prev_page: '上一頁',
+  next_page: '下一頁',
+  operation_failed: '操作失敗',
+  col_type: '操作類型',
+  col_field: '變更欄位',
+  col_change: '變更內容',
+  col_reason: '變更原因',
+  col_operator: '操作人',
+  col_ip: 'IP地址',
+  filter_type: '全部類型',
+  op_user: '用戶',
+  op_admin: '管理員',
+  op_system: '系統',
+  type_unknown: '其他'
+}

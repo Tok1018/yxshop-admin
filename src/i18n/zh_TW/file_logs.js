@@ -1,0 +1,20 @@
+export default {
+  title: '檔案日誌',
+  subtitle: '稽核系統檔案上傳下載操作',
+  search_placeholder: '搜尋檔案名...',
+  col_id: '記錄ID',
+  col_file: '檔案名',
+  col_action: '操作',
+  col_user: '操作使用者',
+  col_time: '操作時間',
+  action_upload: '上傳',
+  action_download: '下載',
+  action_delete: '刪除',
+  user: '使用者',
+  system: '系統',
+  empty: '暫無檔案日誌',
+  total: '共 {total} 條',
+  prev_page: '上一頁',
+  next_page: '下一頁',
+  operation_failed: '操作失敗'
+}

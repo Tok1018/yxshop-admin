@@ -1,0 +1,20 @@
+export default {
+  title: 'File Logs',
+  subtitle: 'Audit system file upload and download operations',
+  search_placeholder: 'Search file name...',
+  col_id: 'Record ID',
+  col_file: 'File Name',
+  col_action: 'Action',
+  col_user: 'Operator',
+  col_time: 'Time',
+  action_upload: 'Upload',
+  action_download: 'Download',
+  action_delete: 'Delete',
+  user: 'User',
+  system: 'System',
+  empty: 'No file logs',
+  total: '{total} total',
+  prev_page: 'Previous',
+  next_page: 'Next',
+  operation_failed: 'Operation failed'
+}

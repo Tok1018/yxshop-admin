@@ -1,0 +1,26 @@
+export default {
+  title: 'Order Logs',
+  subtitle: 'Track order lifecycle operation records',
+  search_placeholder: 'Search order ID or description...',
+  col_id: 'Record ID',
+  col_order: 'Order ID',
+  col_action: 'Action',
+  col_desc: 'Details',
+  col_time: 'Time',
+  empty: 'No log data',
+  total: '{total} total',
+  prev_page: 'Previous',
+  next_page: 'Next',
+  operation_failed: 'Operation failed',
+  col_type: 'Type',
+  col_field: 'Changed Field',
+  col_change: 'Change Details',
+  col_reason: 'Reason',
+  col_operator: 'Operator',
+  col_ip: 'IP Address',
+  filter_type: 'All Types',
+  op_user: 'User',
+  op_admin: 'Admin',
+  op_system: 'System',
+  type_unknown: 'Other'
+}

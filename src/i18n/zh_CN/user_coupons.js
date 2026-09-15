@@ -1,0 +1,23 @@
+export default {
+  title: '用户优惠券',
+  subtitle: '查看用户优惠券领取与使用情况',
+  search_placeholder: '搜索用户ID或优惠券ID...',
+  filter_all_status: '全部状态',
+  status_unused: '未使用',
+  status_used: '已使用',
+  status_expired: '已过期',
+  status_unknown: '未知',
+  th_id: '记录ID',
+  th_user: '用户',
+  th_coupon: '优惠券',
+  th_status: '状态',
+  th_get_time: '领取时间',
+  th_use_time: '使用时间',
+  user_prefix: '用户 #{id}',
+  empty_data: '暂无领取记录',
+  total_count: '共 {n} 条记录',
+  prev_page: '上一页',
+  next_page: '下一页',
+  msg_operation_failed: '操作失败',
+  coupon_prefix: '券'
+}

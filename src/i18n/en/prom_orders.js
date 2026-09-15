@@ -1,0 +1,20 @@
+export default {
+  title: 'Promotional Orders',
+  subtitle: 'View promotional order records',
+  search_placeholder: 'Search promotion ID, order ID...',
+  th_id: 'ID',
+  th_prom_id: 'Promotion ID',
+  th_prom_title: 'Promotion',
+  th_order_id: 'Order ID',
+  th_order_no: 'Order No.',
+  th_user: 'User',
+  th_type: 'Type',
+  th_amount: 'Discount Amount',
+  th_status: 'Status',
+  th_time: 'Created At',
+  empty_data: 'No order data',
+  total_count: '{n} total',
+  prev_page: 'Previous',
+  next_page: 'Next',
+  msg_load_failed: 'Failed to load data'
+}

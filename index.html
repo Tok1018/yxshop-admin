@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <title>%VITE_APP_TITLE%</title>
+    <meta charset="UTF-8" />
+    <meta name="renderer" content="webkit" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+    <style>
+      html, body, #app { height: 100%; margin: 0; padding: 0; }
+      .preload__wrap {
+        display: flex; flex-direction: column; align-items: center; justify-content: center;
+        background-color: #2f3447; position: fixed; left: 0; top: 0; height: 100%; width: 100%;
+        z-index: 9999; transition: all 0.3s ease-in; opacity: 1; pointer-events: none;
+      }
+      .preload__wrap.is-hide { opacity: 0; }
+      .preload__name { font-size: 30px; color: #fff; letter-spacing: 5px; font-weight: bold; margin-bottom: 30px; }
+      .preload__loading {
+        height: 30px; width: 30px; border-radius: 30px; border: 7px solid #689cc5;
+        border-bottom-color: #2f3447 !important; animation: r 1s infinite cubic-bezier(0.17,0.67,0.83,0.67);
+      }
+      @keyframes r { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+    </style>
+  </head>
+  <body>
+    <div id="app">
+      <div class="preload__wrap" id="Loading">
+        <p class="preload__name">%VITE_APP_TITLE%</p>
+        <div class="preload__loading"></div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

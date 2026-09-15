@@ -1,0 +1,23 @@
+export default {
+  title: '使用者優惠券',
+  subtitle: '檢視使用者優惠券領取與使用情況',
+  search_placeholder: '搜尋使用者ID或優惠券ID...',
+  filter_all_status: '全部狀態',
+  status_unused: '未使用',
+  status_used: '已使用',
+  status_expired: '已過期',
+  status_unknown: '未知',
+  th_id: '記錄ID',
+  th_user: '使用者',
+  th_coupon: '優惠券',
+  th_status: '狀態',
+  th_get_time: '領取時間',
+  th_use_time: '使用時間',
+  user_prefix: '使用者 #{id}',
+  empty_data: '暫無領取記錄',
+  total_count: '共 {n} 條記錄',
+  prev_page: '上一頁',
+  next_page: '下一頁',
+  msg_operation_failed: '操作失敗',
+  coupon_prefix: '券'
+}

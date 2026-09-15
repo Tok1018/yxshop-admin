@@ -1,0 +1,24 @@
+export default {
+  title: 'Send Records',
+  subtitle: 'View notification send records',
+  search_receiver: 'Search receiver...',
+  id: 'ID',
+  receiver: 'Receiver',
+  channel: 'Channel',
+  status: 'Status',
+  time: 'Time',
+  sms: 'SMS',
+  email: 'Email',
+  push: 'Push',
+  success: 'Success',
+  failed: 'Failed',
+  empty: 'No send records',
+  total_count: '{count} total',
+  prev_page: 'Previous',
+  next_page: 'Next',
+  operation_failed: 'Operation failed',
+  title_field: 'Title',
+  wechat: 'WeChat',
+  system: 'System',
+  pending: 'Pending'
+}

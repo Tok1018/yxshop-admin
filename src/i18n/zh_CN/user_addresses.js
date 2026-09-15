@@ -1,0 +1,23 @@
+export default {
+  title: '收货地址',
+  subtitle: '管理用户收货地址信息',
+  search_placeholder: '搜索收货人或地址...',
+  th_user: '用户',
+  th_contact: '收货人',
+  th_phone: '联系电话',
+  th_address: '收货地址',
+  th_default: '默认',
+  th_actions: '操作',
+  default_yes: '默认',
+  user_prefix: '用户 #{id}',
+  empty_data: '暂无地址数据',
+  total_count: '共 {n} 条',
+  prev_page: '上一页',
+  next_page: '下一页',
+  btn_delete: '删除',
+  msg_operation_failed: '操作失败',
+  confirm_delete_title: '删除确认',
+  confirm_delete_msg: '确定要删除该收货地址吗？',
+  msg_delete_success: '删除成功',
+  msg_delete_failed: '删除失败'
+}

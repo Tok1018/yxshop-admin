@@ -1,0 +1,20 @@
+export default {
+  title: 'User Detail',
+  subtitle: 'View complete user information',
+  back: 'Back',
+  status_active: 'Active',
+  status_disabled: 'Disabled',
+  balance: 'Balance',
+  points: 'Points',
+  orders: 'Orders',
+  basic_info: 'Basic Info',
+  user_id: 'User ID',
+  username: 'Username',
+  nickname: 'Nickname',
+  phone: 'Phone',
+  email: 'Email',
+  level: 'Level',
+  register_time: 'Registered',
+  last_login: 'Last Login',
+  not_found: 'User not found'
+}

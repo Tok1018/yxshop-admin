@@ -1,0 +1,20 @@
+export default {
+  title: '促銷訂單',
+  subtitle: '查看促銷訂單記錄',
+  search_placeholder: '搜索促銷ID、訂單ID...',
+  th_id: 'ID',
+  th_prom_id: '促銷ID',
+  th_prom_title: '促銷活動',
+  th_order_id: '訂單ID',
+  th_order_no: '訂單編號',
+  th_user: '用戶',
+  th_type: '促銷類型',
+  th_amount: '優惠金額',
+  th_status: '狀態',
+  th_time: '創建時間',
+  empty_data: '暫無訂單數據',
+  total_count: '共 {n} 條',
+  prev_page: '上一頁',
+  next_page: '下一頁',
+  msg_load_failed: '加載數據失敗'
+}

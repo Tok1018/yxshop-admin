@@ -1,0 +1,176 @@
+export const ORDER_STATUS = {
+  PENDING: 0,
+  CONFIRMED: 1,
+  SHIPPED: 2,
+  COMPLETED: 3,
+  CANCELLED: 4,
+}
+
+export const ORDER_STATUS_TEXT = {
+  [ORDER_STATUS.PENDING]: '待确认',
+  [ORDER_STATUS.CONFIRMED]: '已确认',
+  [ORDER_STATUS.SHIPPED]: '已发货',
+  [ORDER_STATUS.COMPLETED]: '已完成',
+  [ORDER_STATUS.CANCELLED]: '已取消',
+}
+
+export const ORDER_STATUS_CLASS = {
+  [ORDER_STATUS.PENDING]: 'pending',
+  [ORDER_STATUS.CONFIRMED]: 'confirmed',
+  [ORDER_STATUS.SHIPPED]: 'shipped',
+  [ORDER_STATUS.COMPLETED]: 'completed',
+  [ORDER_STATUS.CANCELLED]: 'cancelled',
+}
+
+export const PAY_STATUS = {
+  UNPAID: 10,
+  PAID: 20,
+}
+
+export const PAY_STATUS_TEXT = {
+  [PAY_STATUS.UNPAID]: '未支付',
+  [PAY_STATUS.PAID]: '已支付',
+}
+
+export const DELIVERY_STATUS = {
+  UNSHIPPED: 0,
+  SHIPPED: 1,
+  RECEIVED: 2,
+}
+
+export const DELIVERY_STATUS_TEXT = {
+  [DELIVERY_STATUS.UNSHIPPED]: '未发货',
+  [DELIVERY_STATUS.SHIPPED]: '已发货',
+  [DELIVERY_STATUS.RECEIVED]: '已收货',
+}
+
+export const REFUND_STATUS = {
+  NONE: 0,
+  REFUNDING: 1,
+  REFUNDED: 2,
+}
+
+export const REFUND_STATUS_TEXT = {
+  [REFUND_STATUS.NONE]: '无退款',
+  [REFUND_STATUS.REFUNDING]: '退款中',
+  [REFUND_STATUS.REFUNDED]: '已退款',
+}
+
+export const USER_STATUS = {
+  ACTIVE: 1,
+  DISABLED: 0,
+}
+
+export const USER_STATUS_TEXT = {
+  [USER_STATUS.ACTIVE]: '正常',
+  [USER_STATUS.DISABLED]: '禁用',
+}
+
+export const COMMENT_STATUS = {
+  PENDING: 10,
+  APPROVED: 20,
+  REJECTED: 30,
+}
+
+export const COMMENT_STATUS_TEXT = {
+  [COMMENT_STATUS.PENDING]: '待审核',
+  [COMMENT_STATUS.APPROVED]: '已通过',
+  [COMMENT_STATUS.REJECTED]: '已拒绝',
+}
+
+export const PROM_ITEM_STATUS = {
+  NORMAL: 0,
+  SOLD_OUT: 1,
+  DISABLED: 2,
+}
+
+export const PROM_ITEM_STATUS_TEXT = {
+  [PROM_ITEM_STATUS.NORMAL]: '正常',
+  [PROM_ITEM_STATUS.SOLD_OUT]: '已售罄',
+  [PROM_ITEM_STATUS.DISABLED]: '已禁用',
+}
+
+export const COMMON_STATUS = {
+  DISABLED: 0,
+  ENABLED: 1,
+}
+
+export const COMMON_STATUS_TEXT = {
+  [COMMON_STATUS.DISABLED]: '禁用',
+  [COMMON_STATUS.ENABLED]: '启用',
+}
+
+export const AUDIT_STATUS = {
+  PENDING: 0,
+  APPROVED: 1,
+  REJECTED: 2,
+}
+
+export const AUDIT_STATUS_TEXT = {
+  [AUDIT_STATUS.PENDING]: '待审核',
+  [AUDIT_STATUS.APPROVED]: '已通过',
+  [AUDIT_STATUS.REJECTED]: '已驳回',
+}
+
+export const ACTIVITY_STATUS = {
+  NOT_STARTED: 0,
+  ONGOING: 1,
+  ENDED: 2,
+}
+
+export const ACTIVITY_STATUS_TEXT = {
+  [ACTIVITY_STATUS.NOT_STARTED]: '未开始',
+  [ACTIVITY_STATUS.ONGOING]: '进行中',
+  [ACTIVITY_STATUS.ENDED]: '已结束',
+}
+
+export const INVOICE_STATUS = {
+  PENDING: 0,
+  ISSUED: 1,
+  FAILED: 2,
+}
+
+export const INVOICE_STATUS_TEXT = {
+  [INVOICE_STATUS.PENDING]: '待开票',
+  [INVOICE_STATUS.ISSUED]: '已开票',
+  [INVOICE_STATUS.FAILED]: '开票失败',
+}
+
+export const FEEDBACK_STATUS = {
+  PENDING: 0,
+  REPLIED: 1,
+  CLOSED: 2,
+}
+
+export const FEEDBACK_STATUS_TEXT = {
+  [FEEDBACK_STATUS.PENDING]: '待处理',
+  [FEEDBACK_STATUS.REPLIED]: '已回复',
+  [FEEDBACK_STATUS.CLOSED]: '已关闭',
+}
+
+export const RECEIPT_STATUS = { UNRECEIVED: 10, RECEIVED: 20 }
+export const RECEIPT_STATUS_TEXT = { [RECEIPT_STATUS.UNRECEIVED]: '未收货', [RECEIPT_STATUS.RECEIVED]: '已收货' }
+
+export const BACKEND_ORDER_STATUS = { PENDING: 10, CANCEL: 20, COMPLETE: 30 }
+export const BACKEND_DELIVERY_STATUS = { UNSHIPPED: 10, SHIPPED: 20 }
+export const BACKEND_RECEIPT_STATUS = { UNRECEIVED: 10, RECEIVED: 20 }
+export const BACKEND_AUDIT_STATUS = { PENDING: 0, APPROVED: 10, REJECTED: 20 }
+export const BACKEND_REFUND_STATUS = { NONE: 10, REFUNDING: 20, REFUNDED: 30 }
+
+export const ORDER_FLOW_STATUS = { PENDING: 0, CONFIRMED: 1, SHIPPED: 2, COMPLETED: 3, CANCELLED: 4, UNKNOWN: -1 }
+export const ORDER_FLOW_STATUS_TEXT = {
+  [ORDER_FLOW_STATUS.PENDING]: '待确认',
+  [ORDER_FLOW_STATUS.CONFIRMED]: '已确认',
+  [ORDER_FLOW_STATUS.SHIPPED]: '已发货',
+  [ORDER_FLOW_STATUS.COMPLETED]: '已完成',
+  [ORDER_FLOW_STATUS.CANCELLED]: '已取消',
+  [ORDER_FLOW_STATUS.UNKNOWN]: '未知状态',
+}
+export const ORDER_FLOW_STATUS_CLASS = {
+  [ORDER_FLOW_STATUS.PENDING]: 'pending',
+  [ORDER_FLOW_STATUS.CONFIRMED]: 'confirmed',
+  [ORDER_FLOW_STATUS.SHIPPED]: 'shipped',
+  [ORDER_FLOW_STATUS.COMPLETED]: 'completed',
+  [ORDER_FLOW_STATUS.CANCELLED]: 'cancelled',
+  [ORDER_FLOW_STATUS.UNKNOWN]: 'unknown',
+}

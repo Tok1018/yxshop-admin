@@ -1,0 +1,341 @@
+// Linear Aesthetic Style Overrides
+// Unified visual language for sidebar, header, tags, and content pages
+
+// ============================================
+// SIDEBAR
+// ============================================
+.layout-classic-sider {
+  border-right: 1px solid var(--color-border-1);
+  background: var(--color-bg-2);
+}
+
+.arco-menu-light {
+  background: transparent;
+}
+
+.arco-menu-light .arco-menu-item {
+  border-radius: 8px;
+  margin: 2px 8px;
+  padding: 0 12px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 13px;
+  letter-spacing: -0.01em;
+  transition: all 0.2s ease;
+}
+
+.arco-menu-light .arco-menu-item:hover {
+  background: var(--color-fill-3);
+}
+
+.arco-menu-light .arco-menu-item.arco-menu-selected {
+  background: rgb(var(--primary-1));
+  color: rgb(var(--primary-6));
+  font-weight: 500;
+}
+
+.arco-menu-light .arco-menu-inline-header {
+  border-radius: 8px;
+  margin: 2px 8px;
+  padding: 0 12px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 13px;
+  letter-spacing: -0.01em;
+}
+
+.arco-menu-light .arco-menu-inline-header:hover {
+  background: var(--color-fill-3);
+}
+
+.arco-menu-light .arco-menu-inline-header.arco-menu-selected {
+  background: rgb(var(--primary-1));
+  color: rgb(var(--primary-6));
+  font-weight: 500;
+}
+
+.arco-menu-light .arco-menu-inline .arco-menu-item {
+  margin: 1px 8px 1px 16px;
+  height: 36px;
+  line-height: 36px;
+  font-size: 13px;
+}
+
+.arco-menu-light .arco-menu-group-title {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--color-text-4);
+  padding: 12px 20px 4px;
+}
+
+.arco-menu-collapse-button {
+  border-radius: 8px !important;
+  right: 8px !important;
+  bottom: 8px !important;
+}
+
+// Logo area
+.logo {
+  border-bottom: 1px solid var(--color-border-1) !important;
+  background: var(--color-bg-2);
+  span {
+    font-weight: 700;
+    letter-spacing: -0.02em;
+  }
+}
+
+// ============================================
+// HEADER
+// ============================================
+.layout-classic-header .layout-classic-header-container {
+  height: 52px !important;
+  border-bottom: 1px solid var(--color-border-1);
+  background: var(--color-bg-2) !important;
+}
+
+.arco-btn-shape-circle {
+  border-radius: 8px !important;
+}
+
+// ============================================
+// TAGS
+// ============================================
+.tags-container {
+  border-top: 1px solid var(--color-border-1);
+  background: var(--color-bg-2);
+  overflow: hidden;
+
+  .tags {
+    height: 38px;
+    border-bottom: none;
+    background: var(--color-bg-2);
+    flex: 1;
+    min-width: 0;
+
+    div {
+      font-size: 12px;
+      border-radius: 6px;
+      border: 1px solid transparent;
+      padding: 3px 10px;
+      transition: all 0.2s ease;
+      margin-left: 6px;
+    }
+
+    div:hover {
+      background: var(--color-fill-3);
+      border-color: transparent;
+      color: var(--color-text-1);
+    }
+
+    div.active {
+      background: rgb(var(--primary-1));
+      color: rgb(var(--primary-6));
+      border-color: rgb(var(--primary-3));
+      font-weight: 500;
+    }
+  }
+}
+
+// ============================================
+// WORK AREA - content background
+// ============================================
+.work-area {
+  background-color: var(--color-neutral-2);
+  color: var(--color-text-2);
+  height: 100%;
+  overflow-y: auto;
+
+  .ma-content-block {
+    background-color: var(--color-bg-2);
+    border-radius: 8px;
+  }
+}
+
+// ============================================
+// PAGE COMPONENT OVERRIDES - contrast fixes
+// ============================================
+
+// Search boxes in new pages - stronger border
+[class$="-page"] .search-box,
+[class$="-page"] .filter-select,
+[class$="-page"] .form-input,
+[class$="-page"] .form-textarea {
+  border-color: var(--color-border-2);
+  background: var(--color-fill-1);
+}
+
+[class$="-page"] .search-box:focus-within,
+[class$="-page"] .filter-select:focus,
+[class$="-page"] .form-input:focus,
+[class$="-page"] .form-textarea:focus {
+  border-color: rgb(var(--primary-6));
+}
+
+// Table headers - stronger background
+[class$="-page"] .data-table th {
+  background: var(--color-fill-2);
+  color: var(--color-text-2);
+  font-weight: 600;
+}
+
+// Primary buttons - ensure visibility
+[class$="-page"] .btn-primary {
+  background: rgb(var(--primary-6));
+  border-color: rgb(var(--primary-6));
+  color: #fff;
+  font-weight: 600;
+}
+
+[class$="-page"] .btn-primary:hover {
+  filter: brightness(1.1);
+}
+
+[class$="-page"] .btn-primary-sm {
+  background: rgb(var(--primary-6));
+  color: #fff;
+  font-weight: 600;
+}
+
+// Danger buttons
+[class$="-page"] .btn-danger,
+[class$="-page"] .btn-danger-sm {
+  background: rgba(var(--arcoblue-6), 0) rgba(244,63,94,0.1);
+  background: rgba(244,63,94,0.1);
+  color: #F43F5E;
+  border: 1px solid rgba(244,63,94,0.25);
+}
+
+// Ghost/secondary buttons
+[class$="-page"] .btn-ghost,
+[class$="-page"] .btn-ghost-sm {
+  border-color: var(--color-border-2);
+  color: var(--color-text-2);
+}
+
+[class$="-page"] .btn-ghost:hover,
+[class$="-page"] .btn-ghost-sm:hover {
+  background: var(--color-fill-3);
+  color: var(--color-text-1);
+  border-color: var(--color-border-2);
+}
+
+// Badges - ensure readability
+[class$="-page"] .badge.active {
+  background: rgba(16,185,129,0.15);
+  color: #059669;
+  font-weight: 600;
+}
+
+[class$="-page"] .badge.inactive,
+[class$="-page"] .badge.disabled {
+  background: var(--color-fill-3);
+  color: var(--color-text-3);
+  font-weight: 600;
+}
+
+// Level/role badges
+[class$="-page"] .level-badge,
+[class$="-page"] .role-badge {
+  background: rgba(var(--primary-6), 0.1);
+  color: rgb(var(--primary-6));
+  font-weight: 600;
+}
+
+// Toggle switch
+[class$="-page"] .toggle-switch.on {
+  background: rgb(var(--primary-6));
+}
+
+// Page titles
+[class$="-page"] .page-title {
+  color: var(--color-text-1);
+  font-weight: 700;
+}
+
+// Stat values
+[class$="-page"] .stat-value,
+[class$="-page"] .mini-stat-value,
+[class$="-page"] .asset-value {
+  color: var(--color-text-1);
+  font-weight: 700;
+}
+
+// Stock warnings
+[class$="-page"] .stock-val.low {
+  color: #D97706;
+  font-weight: 600;
+}
+
+[class$="-page"] .stock-val.out {
+  color: #DC2626;
+  font-weight: 600;
+}
+
+// ============================================
+// ARCO COMPONENT ENHANCEMENTS
+// ============================================
+
+// Cards - better radius
+.arco-card {
+  border-radius: 10px;
+}
+
+// Tables - better header
+.arco-table-th {
+  font-weight: 600 !important;
+}
+
+// Modal/Drawer - better radius
+.arco-modal {
+  border-radius: 12px;
+}
+
+.arco-drawer {
+  border-radius: 12px 0 0 12px;
+}
+
+// Input - better focus
+.arco-input:focus,
+.arco-input-wrapper:focus-within,
+.arco-select-view:focus-within {
+  border-color: rgb(var(--primary-6)) !important;
+}
+
+// ============================================
+// DARK MODE SPECIFIC ADJUSTMENTS
+// ============================================
+[arco-theme="dark"] {
+  [class$="-page"] .search-box,
+  [class$="-page"] .filter-select,
+  [class$="-page"] .form-input,
+  [class$="-page"] .form-textarea {
+    background: rgba(255,255,255,0.04);
+    border-color: rgba(255,255,255,0.1);
+  }
+
+  [class$="-page"] .badge.active {
+    background: rgba(16,185,129,0.15);
+    color: #34D399;
+  }
+
+  [class$="-page"] .badge.inactive,
+  [class$="-page"] .badge.disabled {
+    background: rgba(255,255,255,0.06);
+    color: var(--color-text-4);
+  }
+
+  [class$="-page"] .stock-val.low {
+    color: #FBBF24;
+  }
+
+  [class$="-page"] .stock-val.out {
+    color: #F87171;
+  }
+
+  [class$="-page"] .btn-danger,
+  [class$="-page"] .btn-danger-sm {
+    background: rgba(244,63,94,0.15);
+    color: #FB7185;
+  }
+}

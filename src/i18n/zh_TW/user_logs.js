@@ -1,0 +1,23 @@
+export default {
+  title: '使用者日誌',
+  subtitle: '追蹤使用者關鍵操作行為與安全稽核',
+  search_placeholder: '搜尋使用者ID或操作內容...',
+  filter_all_type: '全部類型',
+  filter_login: '登入',
+  filter_logout: '登出',
+  filter_order: '下單',
+  filter_payment: '付款',
+  th_id: '記錄ID',
+  th_user: '使用者',
+  th_action: '操作類型',
+  th_detail: '操作詳情',
+  th_ip: 'IP位址',
+  th_time: '操作時間',
+  user_prefix: '使用者 #{id}',
+  system: '系統',
+  empty_data: '暫無日誌資料',
+  total_count: '共 {n} 條記錄',
+  prev_page: '上一頁',
+  next_page: '下一頁',
+  msg_operation_failed: '操作失敗'
+}
